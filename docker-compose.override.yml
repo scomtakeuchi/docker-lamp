@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  php:
+    environment:
+      http_proxy: NULL
+      https_proxy: NULL
+    build:
+      args:
+        http_proxy: NULL
+        https_proxy: NULL
